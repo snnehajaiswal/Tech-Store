@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Cart</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./addToCart.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="wrapper">
+          <div class="logo">
+            <i class='bx bx-menu icon'></i>
+            <span class="logo-name">Tech-Store</span>
+          </div>
+          <div class="right_content">
+            <span><a href="">Sign-Up/Sign-In</a></span>
+            <i class='bx bxs-cart cart ' style="font-size: 1.1rem;"><span id="cart-value"> 0</span></i>
+          </div>
+        </div>
+        <div class="side-bar">
+          <div class="logo">
+            <i class='bx bx-menu icon'></i>
+            <span class="logo-name">Tech-Store</span>
+          </div>
+          <div class="side-bar-items">
+              <ul class="list">
+                <li><a href=""><i class='bx bx-home icons'></i>Home</a></li>
+                <li><a href=""><i class='bx bx-info-circle icons'></i>About</a></li>
+                <li><a href=""><i class='bx bxl-product-hunt icons'></i>Product</a></li>
+                 <li><a href=""><i class='bx bxs-contact icons'></i>Contact</a></li>
+              </ul>
+          </div>
+          <div class="bottom-content"> 
+            <ul class="list">
+              <li><a href=""><i class='bx bxs-cog icons'></i>Setting</a></li>
+              <li><a href=""><i class='bx bx-log-out-circle icons'></i>LogOut</a></li>
+          </div>
+        </div>
+      </nav>
+      <section class="AddToCart-container">
+            <section class="AddToCart-Content">
+              <div class="product-container" id="cart">
+                   
+            </div>
+            </section>
+            <template class="product-Template" id="cardValue">
+              <div class="product-wapper">
+                <div class="category"> <h6 class="category-heading">Computers</h6></div>
+                <div class="productImage"><img src="" alt="" class="image" ></div>
+                <div class="name"><h3 class="name-heading">Laptop</h3></div>
+                <div class="price"><p class="Discount-price"> 45000 </p></div>
+                <div class="Quantity">
+                  <div class="btn">
+                    <button class="Increment">+</button>
+                    <span class="Quantity-span">1</span>
+                    <button class="Decrement">-</button>
+                  </div>
+                </div>
+               <div class="AddToCart">
+                <button class="cart-btn remove-btn">
+                   Remove
+                </button>
+               </div>
+              </div>
+            </template>
+            <section class="Bill">
+            <div class="productBill">
+              <div class="productbill-container"><p>Product Bill</p></div>
+              <div class="Sub-Total-container">
+                <p class="Sub-Total">Sub Total </p>
+                <p class="Sub-Total-price">45000</p>
+              </div>
+              <div class="Tax-Container">
+                <p class="tax">Tax </p>
+                <p class="tax-price">100</p>
+              </div>
+              <hr style="padding: 0;">
+              <div class="Total-container">
+              <p class="Total">Total</p>
+              <p class="Total-price">46000</p>
+            </div>
+            </div>
+          </section>
+      </section>
+      <script type="module" src="./Script.js"></script>
+</body>
+</html>

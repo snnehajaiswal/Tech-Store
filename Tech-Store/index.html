@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech-Store</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="wrapper">
+        <div class="logo">
+          <i class='bx bx-menu icon'></i>
+          <span class="logo-name">Tech-Store</span>
+        </div>
+        <div class="right_content">
+          <span><a href="">Sign-Up/Sign-In</a></span>
+          <a href="./addToCart.html"><i class='bx bxs-cart cart ' style="font-size: 1.1rem;"><span id="cart-value"> 0</span></i></a>
+        </div>
+      </div>
+      <div class="side-bar">
+        <div class="logo">
+          <i class='bx bx-menu icon'></i>
+          <span class="logo-name">Tech-Store</span>
+        </div>
+        <div class="side-bar-items">
+            <ul class="list">
+              <li><a href=""><i class='bx bx-home icons'></i>Home</a></li>
+              <li><a href=""><i class='bx bx-info-circle icons'></i>About</a></li>
+              <li><a href=""><i class='bx bxl-product-hunt icons'></i>Product</a></li>
+               <li><a href=""><i class='bx bxs-contact icons'></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="bottom-content"> 
+          <ul class="list">
+            <li><a href=""><i class='bx bxs-cog icons'></i>Setting</a></li>
+            <li><a href=""><i class='bx bx-log-out-circle icons'></i>LogOut</a></li>
+        </div>
+      </div>
+    </nav>
+     <main class="main-Content">
+      <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="./public/laptop1.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="./public/laptop2.jpg" alt="Image 2"></div>
+            <div class="slide"><img src="./public/laptop3.jpg" alt="Image 3"></div>
+            <div class="slide"><img src="./public/laptop4.jpg" alt="Image 4"></div>
+            <div class="slide"><img src="./public/laptop5.jpg" alt="Image 5"></div>
+        </div>
+    </div>
+     </main>
+     <section class="card-container" id="About">
+      <div class="card">
+      <div class="card-wapper">
+        <div class="card-content">
+          <h2 style="color: var(--main-color);">New Year Sale</h2>
+          <h3 style="font-size: 22px; color:var(--main-color);">Get upto 50% off</h3>
+          <a href="#">Show more</a>
+        </div>
+          <div class="card-image">
+            <img src="./public/Card-image/Laptop.jpg " style="width: 11rem; height: 9.5rem;" alt="">
+          </div> 
+      </div>
+      <div class="card-wapper">
+        <div class="card-content">
+          <h2 style="color: var(--main-color);">New Year Sale</h2>
+          <h3 style="font-size: 22px; color:var(--main-color);">Get upto 50% off</h3>
+          <a href="#">Show more</a>
+        </div>
+          <div class="card-image">
+            <img src="./public/Card-image/headphone.jpg " style="width: 11rem; height: 9.5rem; padding-top: 7px;" alt="">
+          </div> 
+      </div>
+      <div class="card-wapper">
+        <div class="card-content">
+          <h2 style="color: var(--main-color);">New Year Sale</h2>
+          <h3 style="font-size: 22px; color:var(--main-color);">Get upto 50% off</h3>
+          <a href="#">Show more</a>
+        </div>
+          <div class="card-image">
+            <img src="./public/Card-image/phone.jpg " style="width: 13rem; height: 9.7rem; padding-top: 7px" alt="">
+          </div> 
+      </div>
+      <div class="card-wapper">
+        <div class="card-content">
+          <h2 style="color: var(--main-color);">New Year Sale</h2>
+          <h3 style="font-size: 22px; color:var(--main-color);">Get upto 50% off</h3>
+          <a href="#">Show more</a>
+        </div>
+          <div class="card-image">
+            <img src="./public/Card-image/fridge.jpg " style="width: 13rem; height: 10rem; padding-top: 3px " alt="">
+          </div> 
+      </div>
+    </div>
+    <h2 class="common-heading">Why do we use it</h2>
+    <div class="about">
+      <div class="about-wapper">
+        <div class="about-image">
+          <img src="./public/About image.jpg" style="width: 30rem; height: 18rem;" alt="">
+        </div>
+        <div class="about-content">
+          <h4 class="about-heading">About Us</h4>
+          <p>Explore Tech-Store for top  electronics at great  prices.<br>
+            We offer smartphones,laptops , tablets, accessories, and <br>
+            smarthomedevices from leading brands.Enjoy fast shipping,<br>
+            reliable customer service,secure shopping.Whether you're<br>
+            upgrading your gadgets or looking for the  perfect  gift.<br> 
+            Tech-Store has you covered Shop now for the best in tech</p>
+            <button class="about-btn">More About</button>
+        </div>
+      </div>
+    </div>
+     </section>
+     <section class="product">
+      <div class="product-heading">
+        <h3 >Our Products</h3>
+      </div>
+      <div class="product-container" id="card">
+      </div>
+     </section>
+     <section class="New-Arrival">
+      <div class="New-Arrival-heading"><h3>New Arrival</h3></div>
+      <div class="New-Arrival-container">
+        <div class="Image-Pc"><img src="./public/New-Arrival-ps5.jpg" alt="" style="width: 43rem; height: 36.3rem;"></div>
+        <div class="New-Arrival-Wapper">
+          <div class="Mackbook"><img src="./public/New-Arrival-Mackbook1.jpg" alt="" style="width: 25rem;height: 18rem;"></div>
+          <div class="Mackbook1"><img src="./public/New-Arrival-Macbook.jpg" alt="" style="width: 25rem;height: 18rem;"></div>
+        </div>
+      </div>
+      </section>
+      <section class="roll-container">
+      <div class="roll-wapper">
+        <div class="roll-content">
+          <i class='bx bxs-truck roll-icon'></i>
+          <h4 class="roll-heading">FREE AND FAST DELIVERY</h4>
+          <p class="roll-para">Free delivery for all orders over $140</p>
+        </div>
+        <div class="roll-content">
+          <i class='bx bx-support roll-icon'></i>
+          <h4 class="roll-heading">24/7 CUSTOMER SERVICE</h4>
+          <p class="roll-para">Friendly 24/7 customer support</p>
+        </div>
+        <div class="roll-content">
+          <i class='bx bx-bookmark-plus roll-icon'></i>
+          <h4 class="roll-heading">MONEY BACK GUARANTEE</h4>
+          <p class="roll-para">We return money within 3D days</p>
+        </div>
+      </div>
+     </section>
+     <footer class="footer">
+         <div class="footer-wapper">
+          <div class="footer-content">
+            <h4>Exclusive</h4>
+            <h5>Subscribe</h5>
+            <p style="font-size: 0.6rem;">Get Flat 10% Off On Your First Order</p>
+          </div>
+          <div class="footer-content">
+            <h4>Support</h4>
+            <h5>Example Address</h5>
+            <h5>Example@.Gmail.Com</h5>
+            <h5>+8111 0234 4564</h5>
+          </div>
+          <div class="footer-content">
+            <h4>Account</h4>
+            <h5>My Account</h5>
+            <h5>Login/Register</h5>
+            <h5>Cart</h5>
+            <h5>WishList</h5>
+            <h5>Shop</h5>
+          </div>
+          <div class="footer-content">
+            <h4>Quick Link</h4>
+            <h5>Privacy Policy</h5>
+            <h5>Terms Of Use</h5>
+            <h5>FAQ</h5>
+            <h5>Help</h5>
+            <h5>Contact</h5>
+          </div>
+         </div>
+
+         <hr style="color: #f0f5ff; margin-top: 50px;">
+        <div class="foot-content" style="padding: 1.2rem; ">
+           <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg" alt="" style="margin-left: 25px; "><span >Become a Seller</span> 
+           <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-866c0b.svg" alt="" style="margin-left: 15px;"><span >Advertise</span>
+           <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-d7ff24.svg" alt="" style="margin-left: 15px;"><span >Gift Cards</span>
+           <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg" alt="" style="margin-left: 15px;"> <span>Help Center</span>
+           <span style="margin-left: 25px; color: white;"> © 2024 Tech-Store.com</span>
+           <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg" alt="" style="margin-left: 25px;">
+        </div>
+     </footer>
+
+     <template class="product-template">
+      <div class="product-wapper" id="cardValue">
+        <div class="category"> <h6 class="category-heading"></h6></div>
+        <div class="productImage"><img src="" alt="" class="image" ></div>
+        <div class="name"><h3 class="name-heading"></h3></div>
+        <div class="rating">
+          <i class='bx bxs-star' style='color:#e1ec15'  ></i>
+          <i class='bx bxs-star' style='color:#e1ec15'  ></i>
+          <i class='bx bxs-star' style='color:#e1ec15'  ></i>
+          <i class='bx bxs-star' style='color:#e1ec15'  ></i>
+          <i class='bx bxs-star' style='color:#e1ec15'  ></i>
+        </div>
+        <div class="description"><p class="description-para"></p></div>
+        <div class="price"><p class="Discount-price"> </p><span class="Actual-price"></span></div>
+        <div class="Stock"><p class="Stock-para">Total Stocks Available :<span class="Stock-span"></span> </p></div>
+        <div class="Quantity">
+          <div><p class="Quantity-para">Quantity(Pieces)</p></div>
+          <div class="btn">
+            <button class="Increment">+</button>
+            <span class="Quantity-span">1</span>
+            <button class="Decrement">-</button>
+          </div>
+        </div>
+       <div class="AddToCart">
+        <button class="cart-btn">
+          <i class='bx bxs-cart'></i> Add To Cart
+        </button>
+       </div>
+      </div>
+     </template>
+     
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
